@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/blacklisted');
+
+body html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #0A0A0A;
+  font-family: 'Blacklisted', sans-serif;
+}
+
+.imgContainer{
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #4B0000;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  border:1px solid #FF6700;
+  height: 450px;
+  padding: 15px;
+  background-color: #4B0000;
+  color: #FF6700;
+  box-shadow: 10px 10px 30px -10px #FF6700;
+}
+.cards h1, .cards h2{
+  font-weight: 100;
+}
+
+.main{
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.logoContainer{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  place-items: center;
+}
+
+.scoreHolder{
+  text-align: center;
+  color: #FF6700;
+}
+
+.scoreHolder span {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+dialog{
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 15px;
+  border:1px solid #FF6700;
+  padding: 15px;
+  background-color: #4B0000;
+  color: #FF6700;
+  box-shadow: 10px 10px 30px -10px #FF6700;
+  text-align: center;
+}
+ dialog p {
+  font-size: 22px;
+ }
+ dialog button{
+  width: 150px;
+  border-radius: 15px;
+  border:1px solid #FF6700;
+  padding: 10px;
+  background-color: #4B0000;
+  color: #FF6700;
+  box-shadow: 10px 10px 30px -10px #FF6700;
+ }
+ dialog button:focus{
+  outline: none;
+ }
