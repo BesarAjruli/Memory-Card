@@ -1,3 +1,3 @@
 # Memory card game
 
-[Try it out](aquila-memorycardgame.web.app)
+[Try it out](https://aquila-memorycardgame.web.app/)
